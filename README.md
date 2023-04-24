@@ -8,7 +8,6 @@ Esta é uma solução para o [Huddle landing page with single introductory secti
 ## Screenshot
 
 [<img src="design/desktop-design.jpg" alt="Imagem do projeto">]
-[<img src="design/mobile-design.jpg" alt="Imagem do projeto">]
 
 
 ## Tecnologias utilizadas
