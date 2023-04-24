@@ -1,0 +1,53 @@
+@media(max-width: 750px) {
+    body {
+        background: url(../images/bg-mobile.svg) no-repeat top center;
+        background-color: var(--primari-color-dark);
+        
+    }
+    .main {
+        grid-template-columns: 1fr;
+        grid-template-rows: repeat(4, 1fr);
+    }
+
+    .logo img {
+        height: 32px;
+        margin-bottom: 40px;
+    }
+
+   .conteudo-principal {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    text-align: center;
+   }
+   .conteudo-principal .info {
+        width: 100%;
+   }
+
+    .conteudo-principal .info h2 {
+
+        font-size: 20px;
+    }
+
+    .conteudo-principal .info p {
+
+        font-size: 14px;
+    }
+
+    .conteudo-principal .info .btn {
+        width: 150px;
+        height: 40px;
+        font-weight: 400;
+        font-size: 14px;
+    }
+
+    .footer {
+        flex-direction: column;
+        text-align: center;
+        padding: 35px 0 20px 0;
+    }
+
+    .footer .social i {
+        font-size: 14px;
+    }
+}
