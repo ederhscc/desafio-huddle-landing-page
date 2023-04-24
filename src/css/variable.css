@@ -1,0 +1,5 @@
+:root {
+    --primari-color-dark: hsl(257, 40%, 49%);
+    --primari-color-soft:hsl(300, 69%, 71%);
+    --max-width-size: 1440px;
+}
