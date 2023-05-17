@@ -3,9 +3,13 @@ body {
     font-weight: 400;
     background: url(../images/bg-desktop.svg) no-repeat center center;
     background-color: var(--primari-color-dark);
+    background-size: cover;
+    display: flex;
+    justify-content: center;
+    align-items: center;
     max-width: var(--max-width-size);
-    margin: 55px;
-
+    min-height: 100vh;
+    padding: 55px;
 }
 
 .main {
@@ -14,8 +18,9 @@ body {
         "conteudo-principal conteudo-principal"
         "footer footer";
     grid-template-columns: repeat(2, 1fr);
-    max-width: var(--max-width-size);
-    height: 100vh;
+    max-height: 100vh;
+    max-width: 100vw;
+
 }
 
 .logo {
@@ -31,9 +36,9 @@ body {
     grid-area: conteudo-principal;
     grid-template-columns: 1fr 1fr;
     display: flex;
-    max-width: var(--max-width-size);
     margin: 0 auto;
     grid-column-gap: 10px;
+
 }
 
 .conteudo-principal .info {
@@ -68,6 +73,7 @@ body {
     background-color: #FFFFFF;
     transition: 0.3s;
     cursor: pointer;
+    box-shadow: 3px 3px 3px 2px rgba(0, 0, 0, 0.2);
 }
 
 .conteudo-principal .info a:hover .btn {
@@ -90,22 +96,20 @@ body {
     width: 155px;
 }
 
-.footer .social i {
+.footer .social a {
     font-size: 18px;
     color: #FFFFFF;
-    padding: 10px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
     border: 1px solid #FFFFFF;
     border-radius: 50%;
     transition: 0.3s;
+    width: 45px;
+    height: 45px;
 }
 
-.footer .social a .fab.item1 {
-    padding: 8px 12px;
-}
-
-.footer .social a:hover i {
+.footer .social a:hover {
     color: var(--primari-color-soft);
     border: 1px solid var(--primari-color-soft);
-    border-radius: 50%;
-    font-weight: 600;
 }
